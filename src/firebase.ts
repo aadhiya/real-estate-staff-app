@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCBKC8c0pKLsdovstNRUCr2Dpw0NQWnmic",
+  apiKey: "your key",
   authDomain: "real-estate-staff-app.firebaseapp.com",
   projectId: "real-estate-staff-app",
   storageBucket: "real-estate-staff-app.firebasestorage.app",
-  messagingSenderId: "479042139674",
-  appId: "1:479042139674:web:fbbd20d4e2874f0c3643a3"
+  messagingSenderId: "",
+  appId: ""
 };
 
 export const app = initializeApp(firebaseConfig);
